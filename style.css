@@ -1,7 +1,7 @@
 div {
   display: flex;
   flex-wrap: wrap;
-}
+    }
 header, footer {
   background: gray;
   width: 100%;
@@ -18,8 +18,9 @@ aside {
   background: grey;
 }
 main {
+  display: flex;
   flex-grow: 4;
-  background: grey;
+  align-items: center;
   margin: 0 20px;
   position: relative;
 }
